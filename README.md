@@ -9,16 +9,24 @@ Repository ini merupakan program untuk deteksi wajah (face recognition) mengguna
 
 ## Cara Menjalankan Program
 
-1. Clone repository ini ke lokal:
+1. Clone repository ini ke lokal melalui vscode :
 
    ```bash
    git clone https://github.com/nasy984/Face-Recognition.git
    cd Face-Recognition
-2. Pastikan semua dependensi sudah terpasang
+2. Install semua extension yang diminta oleh vscode
+3. Pastikan pip sudah di install. Jika belum maka jalankan perintah berikut pada terminal
+    ```bash
+   python.exe -m pip install --upgrade pip
+5. Pastikan sudah menginstall matplotlib dan scikit-learn. Jika belum, jalankan perintah berikut pada terminal
+    ```bash
+   pip install matplotlib
+   pip install scikit-learn
+7. Pastikan semua dependensi sudah terpasang
      ```bash
    pip install numpy opencv-python scikit-learn matplotlib
-3. Buka dan jalankan file Tutorial_Computer_Vision_1.ipynb menggunakan Jupyter Notebook atau Google Colab.
-4. Run semua sel pada notebook ipynb
+8. Buka dan jalankan file Tutorial_Computer_Vision_1.ipynb menggunakan Jupyter Notebook atau Google Colab.
+9. Run semua sel pada notebook ipynb
 
 Keterangan tambahan 
 - Jika ingin menggunakan dataset gambar baru, tambahkan gambar wajah ke dalam folder images/ dengan format yang sesuai.
