@@ -13,7 +13,6 @@ Repository ini merupakan program untuk deteksi wajah (face recognition) mengguna
 
    ```bash
    git clone https://github.com/nasy984/Tugas-CV
-   cd Face-Recognition
 2. Install semua extension yang diminta oleh vscode
 3. Pastikan pip sudah di install. Jika belum maka jalankan perintah berikut pada terminal
     ```bash
